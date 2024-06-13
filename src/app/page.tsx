@@ -132,7 +132,7 @@ export default function Home() {
           />
         </div>
         <div className='bg-[#302113] rounded-3xl py-10 mt-12'>
-          <p className='max-w-[520px] mx-auto text-white text-center text-3xl'>
+          <p className='max-w-[520px] mx-auto px-2 text-white text-center text-2xl lg:text-3xl'>
             Schedule a call with today to learn about our product offerings
           </p>
           <p className='flex justify-center mt-10'>
