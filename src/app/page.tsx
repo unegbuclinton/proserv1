@@ -21,7 +21,7 @@ export default function Home() {
             Talk to us
           </a>
         </nav>
-        <div className='flex items-center gap-5 max-w-[1020px] mx-auto'>
+        <div className='flex items-center gap-5 flex-wrap max-w-[1020px] mx-auto'>
           <div>
             <h3 className='text-3xl max-w-[467px] font-medium mb-3'>
               Empowering Your Business with Comprehensive Solutions in South
@@ -79,7 +79,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className='flex my-5 gap-5 flex-wrap text-center'>
+        <div className='flex my-5 gap-5 flex-wrap lg:flex-nowrap text-center'>
           <div className='bg-washedWhite px-6 py-10 flex flex-col items-center  rounded-3xl'>
             <h3 className='text-lg font-bold'>
               Comprehensive Legal Services for Your Business
