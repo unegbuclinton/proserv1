@@ -11,8 +11,8 @@ import Banco from './components/svgs/Banco'
 export default function Home() {
   return (
     <main className=''>
-      <section className='pt-4 bg-gradient-primary'>
-        <nav className='flex items-center justify-around max-w-[727px] mx-auto py-3 rounded-[100px] bg-tertiary'>
+      <section className='pt-4 bg-gradient-primary px-3'>
+        <nav className='flex items-center justify-between mb-10 lg:mb-2 px-5 lg:px-0 lg:justify-around max-w-[727px] mx-auto py-3 rounded-[100px] bg-tertiary'>
           <LogoImg />
           <a
             className='py-1.5 px-4 rounded-lg bg-primary text-white'
@@ -60,8 +60,8 @@ export default function Home() {
         <Mapfre />
         <Banco />
       </div>
-      <section className='py-12 max-w-[958px] mx-auto'>
-        <div className='bg-washedWhite p-10 rounded-3xl flex gap-20'>
+      <section className='py-12 max-w-[958px] mx-auto px-3'>
+        <div className='bg-washedWhite p-10 rounded-3xl text-center lg:text-left flex gap-5 lg:gap-20 flex-wrap-reverse'>
           <Image
             width={378}
             height={400}
@@ -79,7 +79,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className='flex my-5 gap-5'>
+        <div className='flex my-5 gap-5 flex-wrap text-center'>
           <div className='bg-washedWhite px-6 py-10 flex flex-col items-center  rounded-3xl'>
             <h3 className='text-lg font-bold'>
               Comprehensive Legal Services for Your Business
@@ -113,7 +113,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className='bg-washedWhite p-10 rounded-3xl flex gap-20'>
+        <div className='bg-washedWhite p-10 rounded-3xl text-center lg:text-left flex gap-5 lg:gap-20 flex-wrap'>
           <div className='max-w-[340px]'>
             <h3 className='text-2xl font-medium'>
               Enhance Your Global Reach with Localized Translation
