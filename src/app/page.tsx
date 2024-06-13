@@ -16,7 +16,7 @@ export default function Home() {
           <LogoImg />
           <a
             className='py-1.5 px-4 rounded-lg bg-primary text-white'
-            href='https://zcal.co/i/Yrxnhmav'
+            href=' https://zcal.co/raquelcampos'
           >
             Talk to us
           </a>
@@ -33,7 +33,7 @@ export default function Home() {
             </p>
             <span className='block mt-3'>
               <a
-                href='https://zcal.co/i/Yrxnhmav'
+                href=' https://zcal.co/raquelcampos'
                 className='py-3 px-4 bg-primary rounded-lg text-white'
               >
                 Schedule a call
@@ -137,7 +137,7 @@ export default function Home() {
           </p>
           <p className='flex justify-center mt-10'>
             <a
-              href='https://zcal.co/i/Yrxnhmav'
+              href=' https://zcal.co/raquelcampos'
               className='rounded-lg bg-white py-3 px-4'
             >
               Schedule a call
